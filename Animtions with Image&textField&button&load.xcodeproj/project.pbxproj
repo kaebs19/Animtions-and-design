@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F1FA6162A7AB104002085AC /* DesignButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1FA6132A7AB104002085AC /* DesignButton.swift */; };
+		0F1FA6172A7AB104002085AC /* DesignTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1FA6142A7AB104002085AC /* DesignTextField.swift */; };
+		0F1FA6182A7AB104002085AC /* DesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1FA6152A7AB104002085AC /* DesignView.swift */; };
+		0F1FA61A2A7AB4AB002085AC /* Animtions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1FA6192A7AB4AB002085AC /* Animtions.swift */; };
 		0F274FBA2A7AACB20020961E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F274FB92A7AACB20020961E /* AppDelegate.swift */; };
 		0F274FBC2A7AACB20020961E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F274FBB2A7AACB20020961E /* SceneDelegate.swift */; };
 		0F274FBE2A7AACB20020961E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F274FBD2A7AACB20020961E /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F1FA6132A7AB104002085AC /* DesignButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignButton.swift; sourceTree = "<group>"; };
+		0F1FA6142A7AB104002085AC /* DesignTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignTextField.swift; sourceTree = "<group>"; };
+		0F1FA6152A7AB104002085AC /* DesignView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignView.swift; sourceTree = "<group>"; };
+		0F1FA6192A7AB4AB002085AC /* Animtions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animtions.swift; sourceTree = "<group>"; };
 		0F274FB62A7AACB20020961E /* Animtions with Image&textField&button&load.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animtions with Image&textField&button&load.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F274FB92A7AACB20020961E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F274FBB2A7AACB20020961E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +45,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F1FA6112A7AB0A0002085AC /* Animtions */ = {
+			isa = PBXGroup;
+			children = (
+				0F1FA6192A7AB4AB002085AC /* Animtions.swift */,
+			);
+			path = Animtions;
+			sourceTree = "<group>";
+		};
+		0F1FA6122A7AB0B3002085AC /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				0F1FA6132A7AB104002085AC /* DesignButton.swift */,
+				0F1FA6142A7AB104002085AC /* DesignTextField.swift */,
+				0F1FA6152A7AB104002085AC /* DesignView.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		0F1FA61B2A7AB55A002085AC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0F274FBD2A7AACB20020961E /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0F1FA61C2A7AB56D002085AC /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0F274FC42A7AACB40020961E /* LaunchScreen.storyboard */,
+				0F274FBF2A7AACB20020961E /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
 		0F274FAD2A7AACB20020961E = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +99,13 @@
 		0F274FB82A7AACB20020961E /* Animtions with Image&textField&button&load */ = {
 			isa = PBXGroup;
 			children = (
+				0F1FA61C2A7AB56D002085AC /* Storyboard */,
+				0F1FA61B2A7AB55A002085AC /* ViewControllers */,
+				0F1FA6122A7AB0B3002085AC /* Design */,
+				0F1FA6112A7AB0A0002085AC /* Animtions */,
 				0F274FB92A7AACB20020961E /* AppDelegate.swift */,
 				0F274FBB2A7AACB20020961E /* SceneDelegate.swift */,
-				0F274FBD2A7AACB20020961E /* ViewController.swift */,
-				0F274FBF2A7AACB20020961E /* Main.storyboard */,
 				0F274FC22A7AACB40020961E /* Assets.xcassets */,
-				0F274FC42A7AACB40020961E /* LaunchScreen.storyboard */,
 				0F274FC72A7AACB40020961E /* Info.plist */,
 			);
 			path = "Animtions with Image&textField&button&load";
@@ -138,9 +182,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F1FA6172A7AB104002085AC /* DesignTextField.swift in Sources */,
 				0F274FBE2A7AACB20020961E /* ViewController.swift in Sources */,
+				0F1FA6182A7AB104002085AC /* DesignView.swift in Sources */,
+				0F1FA61A2A7AB4AB002085AC /* Animtions.swift in Sources */,
 				0F274FBA2A7AACB20020961E /* AppDelegate.swift in Sources */,
 				0F274FBC2A7AACB20020961E /* SceneDelegate.swift in Sources */,
+				0F1FA6162A7AB104002085AC /* DesignButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
